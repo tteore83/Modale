@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+@media screen and (min-width: 1200px) {
+    .modal {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        border-radius: 10px;
+
+        &-footer {
+            border-radius: 0 0 10px 10px;
+        }
+    }
+}
